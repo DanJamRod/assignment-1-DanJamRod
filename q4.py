@@ -28,6 +28,7 @@ def find_good_words():
     count = 0
     for word in f:
         if good_word(word) == True:
+            print(word)
             count += 1
     return count
 
