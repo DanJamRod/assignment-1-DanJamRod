@@ -23,6 +23,7 @@ def find_awesome_words():
     count = 0
     for word in f:
         if awesome_word(word) == True:
+            print(word)
             count += 1
     return count
 
